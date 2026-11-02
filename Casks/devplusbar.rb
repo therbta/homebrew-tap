@@ -1,6 +1,6 @@
 cask "devplusbar" do
   version "0.3.3"
-  sha256 ""
+  sha256 "4883aed70c2e555a3e24e89de432cb82da6dfcafd1bcd2046ea82f06b4f365aa"
 
   url "https://github.com/therbta/devplusbar/releases/download/v#{version}/DevPlusBar-#{version}-macos.zip"
   name "Dev+ Bar"
