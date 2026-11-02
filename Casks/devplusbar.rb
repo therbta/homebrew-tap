@@ -1,11 +1,11 @@
 cask "devplusbar" do
   version "0.3.3"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 ""
 
-  url "https://github.com/cobanov/devplusbar/releases/download/v#{version}/Dev+ Bar-#{version}-macos.zip"
+  url "https://github.com/therbta/devplusbar/releases/download/v#{version}/Dev+ Bar-#{version}-macos.zip"
   name "Dev+ Bar"
   desc "Pull requests and issues from your repositories, in the menu bar"
-  homepage "https://devplusbar.cobanov.dev"
+  homepage "https://devplusbar.pages.dev"
 
   depends_on macos: :sonoma
 
@@ -13,6 +13,6 @@ cask "devplusbar" do
 
   zap trash: [
     "~/Library/Application Support/Dev+ Bar",
-    "~/Library/Preferences/run.cobanov.devplusbar.plist",
+    "~/Library/Preferences/run.therbta.devplusbar.plist",
   ]
 end
